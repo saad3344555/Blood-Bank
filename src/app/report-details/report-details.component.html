@@ -1,0 +1,80 @@
+<div class="mainDiv">
+
+  <div class="detailsDiv">
+
+    <p class="header"> Blood Information and Details</p>
+
+    <div class="fieldsDiv">
+
+      <form class="from">
+
+        <input class="ageField" type="number" placeholder="Enter your Age" required=""/>
+
+
+        <p class="labelText">Hemoglobin Level</p>
+
+        <div class="inlineButtons">
+
+          <input type="radio" name="hemolevel" value="below 12"/>Below 12
+
+          <input type="radio" name="hemolevel" value="12-17"/>12 - 17
+          
+          <input type="radio" name="hemolevel" value="above 17"/> Above 17
+          
+
+        </div>
+
+        <p class="labelText">Blood Pressure</p>
+
+        <div class="inlineButtons">
+
+          <input type="radio" name="BP" value="normal"/>Normal  
+
+          <input type="radio" name="BP" value="pht"/>PreHyperTension
+          
+          <input type="radio" name="BP" value="pht1"/>HyperTension 1
+          
+          <input type="radio" name="BP" value="pht2"/>HyperTension 2
+
+        </div>
+
+        <p class="labelText">Body Temperature</p>
+
+        <div class="inlineButtons">
+
+          <input type="radio" name="BT" value="below"/>Below 97
+
+          <input type="radio" name="BT" value="normal"/>97-99.5
+          
+          <input type="radio" name="BT" value="above"/>Above 99.5
+          
+        </div>
+
+        <select class="spinner">
+          <option value="" disabled selected>Select blood group</option>
+          <option *ngFor="let bgs of bloodGroups">{{bgs}}</option>
+        </select>
+
+      </form>
+
+      <input class="submitButton" type="submit" value="Submit Donation" (click)="onSubmit()"/>
+
+      <div class="confirmationLayout" *ngIf="isSubmitted==true">
+
+        <p class="highlightedText">Are you sure to record this Donation.</p>
+
+        <div class="inlineButtons">
+
+          <button class="posButton">Yes, I am</button>
+
+          <button class="negButton">No, stop</button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

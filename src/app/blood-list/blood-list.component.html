@@ -1,0 +1,18 @@
+
+<div>
+  <p id = "blood-group-text">Select the blood group:</p>
+</div>
+<p  *ngFor="let shariq of [{bloodgroup:'A+',price:'1000pkr'},{bloodgroup:'A-',price:'1000pkr'},
+{bloodgroup:'B+',price:'1000pkr'},{bloodgroup:'B-',price:'1000pkr'},{bloodgroup:'AB+',price:'1000pkr'},
+{bloodgroup:'AB-',price:'1000pkr'},{bloodgroup:'O+',price:'1000pkr'},{bloodgroup:'O-',price:'1000pkr'}]; let myIndex = index">
+  
+    <input type="radio"> 
+    <span>{{shariq.bloodgroup}}&nbsp;&nbsp;{{ shariq.price}}</span>
+  </p>
+  
+   <!-- <div *ngFor="let item of ['A+','A-']; let myIndex = index">
+      {{item}}
+    </div> -->
+  <app-confirm-buttons>
+    
+  </app-confirm-buttons>

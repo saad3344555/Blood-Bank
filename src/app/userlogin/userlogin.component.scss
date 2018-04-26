@@ -1,0 +1,119 @@
+
+.loginDiv{
+    background-color: rgba(255, 255, 255, 0.781);
+    margin-left: 400px;
+    margin-top: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 400px;
+    margin-bottom: 200px;
+    height: max-content;
+    width: max-content;
+}
+
+.emailField{
+
+    margin-top: 10px;
+    display: table-cell;
+    // padding: 5px;
+    width: 100%;
+    box-sizing:border-box;
+    padding: 10px 10px;
+    border: solid lightgrey 1px;
+//    border: none;
+    // padding: 14px 40px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.passField{
+
+    // padding: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 10px 10px;
+    display: table-cell;
+    box-sizing:border-box;
+    border: solid lightgray 1px;
+    // background-color: #4CAF50; 
+    // border: none;
+    // border-radius: 5px;
+    // color: white;
+    // padding: 14px 40px;
+    // text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.logRegText{
+
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #254d5f;
+}
+.fieldsDiv{
+    border: solid #254d5f 4px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.loginButton{
+
+    background-color: #4CAF50; 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.registerButton{
+    background-color: #4CAF50; 
+    border: none;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    color: white;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.adminLogin{
+
+    // background-color: #708090;
+    margin-top: 5px;
+    // padding: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    background-color: #4CAF50; 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.loginButton:hover{
+    color: #FFFF;
+    background: #254d5f;
+}
+
+.adminLogin:hover{
+    color: #FFFF;
+    background: #254d5f;
+}
+
+.registerButton:hover{
+    color: #FFFF;
+    background: #254d5f;
+}

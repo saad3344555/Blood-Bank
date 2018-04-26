@@ -1,0 +1,116 @@
+
+
+.labelText{
+    font-size: 15px;
+    
+}
+
+.ageField{
+    margin-top: 10px;
+    display: table-cell;
+    width: 100%;
+    box-sizing:border-box;
+    padding: 10px 10px;
+    border: solid lightgrey 1px;
+    box-sizing:border-box;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.spinner{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: table-cell;
+    width: 100%;
+    box-sizing:border-box;
+    padding: 10px 10px;
+    border: solid lightgrey 1px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.confirmationLayout{
+    background: white;
+    border-radius: 5px;
+}
+
+.highlightedText{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    color: #254d5f;
+
+}
+
+.inlineButtons{
+    display: inline;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+
+.posButton{
+    padding: 5px 20px;
+    background: #4CAF50;
+    border: none;
+    width: 20%;
+    color: #FFF;
+}
+
+.posButton:hover{
+    background: #254d5f;
+}
+
+.negButton:hover{
+    background: #254d5f;
+}
+
+.negButton{
+    padding: 5px 20px;
+    width: 20%;
+    border: none;
+    color: #FFF;
+    background: #4CAF50;
+}
+
+.detailsDiv{
+    background-color: rgba(255, 255, 255, 0.781);
+    margin-left: 400px;
+    margin-top: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 400px;
+    margin-bottom: 200px;
+    height: max-content;
+    width: max-content;
+}
+
+.header{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #254d5f;
+}
+.fieldsDiv{
+    border: solid #254d5f 4px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.submitButton{
+
+    background-color: #4CAF50; 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.submitButton:hover{
+    color: #FFFF;
+    background: #254d5f;
+}
