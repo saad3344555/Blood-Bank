@@ -7,7 +7,7 @@ import { ReportDetailsComponent } from './report-details/report-details.componen
 const routes: Routes = [
   {
     path : '',
-    component: ReportDetailsComponent
+    component: UserloginComponent
   },
   {
     path : 'adminlog',
